@@ -14,7 +14,7 @@ PRIMARY KEY (id)
 - Now let’s insert some sample data into our database. The syntax would be
 
 ```
-insert into users (id, username, password) values (1, ‘Jane’, ‘Eyre’);
+insert into users (id, username, password) values (1, 'Jane', 'Eyre');
 ```
 - Using name_const()
   
