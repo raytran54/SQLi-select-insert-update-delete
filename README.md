@@ -1,4 +1,4 @@
-# SQLi-select-insert-update-delete
+# TRAN CONG DANH - SVTT - Mentor: LUU VAN LAN - SQLi-select-insert-update-delete - Day Started: 09/07/2024.
 - Create a db for the lab:
 ```
 Create database newdb;
